@@ -1,0 +1,27 @@
+{
+    'name': 'Hospital Management',
+    'version': '1.0',
+    'summary': 'Hospital Management Software',
+    'sequence': -10,
+    'description': """Hospital Management Software""",
+    'category': 'Productivity',
+    'website': 'https:/vms.vti.com.vn',
+    'lience': 'LGPL-3',
+    'depends': [
+        'sale',
+        'hr',
+        'mail',
+    ],
+    'data': [
+        'views/patient_view.xml',
+        'views/kids_view.xml',
+        'views/patient_gender_view.xml',
+        'views/appointment_view.xml',
+        'views/sale.xml',
+        'security/ir.model.access.csv',
+        'data/data.xml',
+    ],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
