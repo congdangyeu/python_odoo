@@ -24,7 +24,7 @@ class HospitalAppointment(models.Model):
 
     def action_confirm(self):
         self.state = 'confirm'
-        print('Test GIT!!!')
+        print('Test GIT1!!!')
 
     def action_done(self):
         self.state = 'done'
